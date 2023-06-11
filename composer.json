@@ -1,0 +1,24 @@
+{
+    "name": "smartedutech/securelayer",
+    "description": "secure layer",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Smartedutech\\Securelayer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "limostr",
+            "email": "oussama.limam@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "9.6",
+        "phpunit/php-code-coverage": "^9.2",
+        "pcov/clobber": "^2.0"
+    },
+    "require": {}
+}

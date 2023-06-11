@@ -1,0 +1,6 @@
+.\vendor\bin\phpunit .\tests\TestAgentLog.php --coverage-html .\test-report --coverage-filter .\src\
+
+
+
+
+.\vendor\bin\pcov merge coverage_result_directory --html .\test-report

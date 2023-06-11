@@ -1,0 +1,47 @@
+{
+    "interface1":{
+        "Obligation":{
+            "bloqued":true
+        },
+
+        "SaveLog":{
+            "FileLog":"true" 
+            ,"DB":{
+                "Config":{
+                    "host":"localhost"
+                    ,"DBName":""
+                },
+                "Model":{
+                    "Log":{
+                         "TableName":"Logs"
+                         ,"id":"idLog"
+                          ,"Scan":"Log"
+                          ,"Session":"SessionCol"
+                          ,"CLientScan":"ClientScan"
+                    }
+                },
+                "Session":{
+                } 
+            }
+        },
+        "datas":{
+            "cin":{
+                "type":"string"
+                ,"taille":"8"
+                ,"obligatoire":"true"
+                ,"bloqued":"true"
+                ,"test_SQL_Injetion":"true" 
+            },
+            "email":{
+                "type":"email"
+            }
+        },
+        "watchdog":{
+            "alertDanger":{
+                 "data":{
+                    "cin":"true"
+                 }
+            }
+        }
+    }
+}
