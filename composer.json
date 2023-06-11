@@ -20,5 +20,7 @@
         "phpunit/php-code-coverage": "^9.2",
         "pcov/clobber": "^2.0"
     },
-    "require": {}
+    "require": {
+        "php": ">=7.4" 
+    }
 }
