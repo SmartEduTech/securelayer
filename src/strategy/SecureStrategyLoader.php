@@ -16,7 +16,7 @@ class SecureStrategyLoader{
     
             if(file_exists($StrategyFileName)){
             $StrategyFile = fopen($StrategyFileName, "r"); 
-            $StrategyText=fread($StrategyFile,filesize($StrategyFile));
+            $StrategyText=fread($StrategyFile,filesize($StrategyFileName));
             $this->_Strategy=json_decode($StrategyText,true);
             fclose($StrategyFile);
            }
@@ -25,6 +25,8 @@ class SecureStrategyLoader{
     public function getStrategy(String $_StrategyName):array{
         if(isset($this->_Strategy[$_StrategyName])){
             return $this->_Strategy[$_StrategyName];
+        }else{
+            return [];
         }
     }
 

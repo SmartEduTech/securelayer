@@ -6,6 +6,24 @@ use Smartedutech\Securelayer\Log\AgentLog;
 abstract class FilterDatas{
     public static $_Langue="FR";
      
+    public static function filter(array $datas,$value){
+       switch($datas['type']){
+            case "string":
+                return  self::filterString($value,(isset($datas['taille']) ? $datas['taille'] :""),(isset($datas['min']) ? $datas['min'] :""),(isset($datas['max']) ? $datas['max'] :""));
+            break;
+            case "int": 
+                return  self::filterInt($value,(isset($datas['min']) ? $datas['min'] :""),(isset($datas['max']) ? $datas['max'] :""));
+            break;
+            case "email":
+                return self::filterString($value);
+            break;
+            case "sqlinjection":
+                return self::sqlInjectionScan($value);
+            break;
+       }
+    }
+
+
     public static function filterEMail($email){
         if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
             return ""; 
@@ -13,8 +31,18 @@ abstract class FilterDatas{
             return AgentLog::Loger("FilterDatas","filterEmail","ERREUR_EMail","FR"); 
           }
     }
-    public static function filterString(){
-
+    public static function sqlInjectionScan(string $str){
+        $result= ScanSqlInjection::scanSqlInjection($str);
+        if($result['result']){
+            $stradd=json_encode($result['matched']);
+            return AgentLog::Loger("FilterDatas","sqlInjectionScan","FR",$stradd);
+        }else{
+            return "";
+        }
+       
+    }
+    public static function filterString(string $str,int $lengh=null,int $min=null,int $max=null){
+        
     }
 /**
  * Filter Int with range

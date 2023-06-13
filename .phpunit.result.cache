@@ -1,1 +1,1 @@
-{"version":1,"defects":{"TestAgentLog::testIfLogedFileGenerate":3,"TestAgentLog::testEmailLog":3},"times":{"TestAgentLog::testIfLogedFileGenerate":0.027,"TestAgentLog::testEmailLog":0.004,"TestMessage::testIfReadMessage":0.001}}
+{"version":1,"defects":{"TestAgentLog::testIfLogedFileGenerate":3,"TestAgentLog::testEmailLog":3},"times":{"TestAgentLog::testIfLogedFileGenerate":0.023,"TestAgentLog::testEmailLog":0.007,"TestMessage::testIfReadMessage":0.001}}
