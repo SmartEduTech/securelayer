@@ -1,0 +1,24 @@
+{
+    "FilterDatas":{
+        "filterInt":{
+            "Erreur_Interval":{
+                "FR":"Erreur d'entier n'est pas dans l'interval"
+                ,"AR":""
+                ,"AN":""
+            },
+            "Erreur_INT":{
+                "FR":"ce n'est pas un entier"
+                ,"AR":"المعطى ليس عدد"
+                ,"AN":"IS NOT NUMBER"
+            }
+        },
+        "filterEmail":{
+            "ERREUR_EMail":{
+                "FR":"Erreur d'e-mail"
+                ,"AR":""
+                ,"AN":""
+            }
+        }          
+           
+    }
+} 
