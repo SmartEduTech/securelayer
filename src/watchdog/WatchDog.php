@@ -6,11 +6,12 @@ use Smartedutech\Securelayer\Log\AgentLog;
 
 class WatchDog{ 
 
-    public function run(){
+    public function run(string $strategywatchdog){
         $this->scanActivity();
         $this->scanClient();
+        $this->analyseAlert($strategywatchdog);
     }
-    public function analyseAlert(){
+    public function analyseAlert(string $strategywatchdog){
 
     }
 

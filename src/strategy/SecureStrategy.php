@@ -21,8 +21,8 @@ class SecureStrategy{
 
     }
 
-    public function getStrategyForAction(){ 
-        $parsedURI=ActivityScan::getActivity();
+    public function getStrategyForAction(string $paramget=""){ 
+        $parsedURI=ActivityScan::getActivity($paramget);
         return $this->_Strategy->getStrategy($parsedURI); 
 
     }
