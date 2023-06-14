@@ -16,8 +16,6 @@ final class TestAgentLog extends TestCase{
 
     public function testEmailLog(){
         $message=AgentLog::Loger("FilterDatas","filterEmail","ERREUR_EMail","FR");
-
         $this->assertEquals("Erreur d'e-mail",$message);
-
     }
 }

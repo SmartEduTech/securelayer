@@ -22,7 +22,7 @@
             "Session":{
             } 
         }
-    },
+    }, 
     "/":{
         "Obligation":{
             "bloqued":true
@@ -37,7 +37,7 @@
             },
             "email":{
                 "type":"email"
-            }
+            }            
         }
     },
     "interface1":{

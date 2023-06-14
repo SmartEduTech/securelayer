@@ -12,7 +12,7 @@ public static function InitLogStategy(array $Strategy):void{
 private static function LogSaveMessageInFile($Message){
    FileAgentLog::FileSaveLogMessage($Message);
 } 
-private function addTime($Message){
+private static function addTime($Message){
   return date("\n[d-m-D h:i:s]").";". $Message ;
 }
   private static function LogMessageInsertInDB($Message){
