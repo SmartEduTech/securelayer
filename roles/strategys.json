@@ -38,6 +38,16 @@
             "email":{
                 "type":"email"
             }            
+        },
+        "watchdog":{
+            "alertDanger":{
+                 "data":{
+                    "cin":{
+                        "obligatoire":"true"
+                        ,"type":"sqlinjection" 
+                    }
+                 }
+            }
         }
     },
     "interface1":{
@@ -55,13 +65,7 @@
             "email":{
                 "type":"email"
             }
-        },
-        "watchdog":{
-            "alertDanger":{
-                 "data":{
-                    "cin":"true"
-                 }
-            }
         }
+        
     }
 }

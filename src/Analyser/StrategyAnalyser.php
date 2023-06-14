@@ -15,8 +15,12 @@ class StrategyAnalyser{
     public function run(){
         //testé si on a une stratégie de securité ou pas dans l'action
         $strategyAction=$this->_SecureStrategy->getStrategyForAction();
-        if(isset($strategyAction['datas'])){
-            foreach($strategyAction['datas'] as $key => $value){
+        $this->DataAnalyse($strategyAction['datas']);
+    }
+
+    public function DataAnalyse($strategyData){
+        if(isset($strategyData)){
+            foreach($strategyData as $key => $value){
                 if(isset($_REQUEST[$key])){
                     FilterDatas::filter($value,$_REQUEST[$key]); 
                 } 
