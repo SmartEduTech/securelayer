@@ -11,7 +11,7 @@ class SecureStrategyLoader{
     {
         $this->LoadFileStrategy($File);
     }  
-    private function LoadFileStrategy(String $File=""):void{
+    private function LoadFileStrategy(String $File=""){
         $StrategyFileName=!empty($File) ? $File : __STRATEGY_LAYERSECURE__."/".__STRATEGY_LAYERSECURE__FILENAME__; 
     
             if(file_exists($StrategyFileName)){
@@ -22,7 +22,7 @@ class SecureStrategyLoader{
            }
            
     }
-    public function getStrategy(String $_StrategyName):array{
+    public function getStrategy(String $_StrategyName){
         if(isset($this->_Strategy[$_StrategyName])){
             return $this->_Strategy[$_StrategyName];
         }else{

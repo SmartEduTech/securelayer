@@ -1,6 +1,6 @@
 <?php
 
-namespace Smartedutech\Securelayer\WatchDog;
+namespace Smartedutech\Securelayer\Watchdog;
 
 abstract class ActivityScan{
 
@@ -24,6 +24,8 @@ abstract class ActivityScan{
             ,"activity"=>self::getActivity()
             ,"client"=>ClientScan::getClient()
             ,"temp_requete"=>date('d/m/Y H:i:s', $_SERVER["REQUEST_TIME"])  
+            ,"QUERY_STRING"=>$_SERVER['QUERY_STRING']
+            ,"SERVER_NAME"=>$_SERVER['SERVER_NAME']
             
         ));
     }

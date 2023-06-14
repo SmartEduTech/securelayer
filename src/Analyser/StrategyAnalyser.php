@@ -5,7 +5,7 @@ namespace Smartedutech\Securelayer\Analyser;
 
 use Smartedutech\Securelayer\Filters\FilterDatas;
 use Smartedutech\Securelayer\Strategy\SecureStrategy;
-use Smartedutech\Securelayer\WatchDog\WatchDog;
+use Smartedutech\Securelayer\Watchdog\WatchDog;
 
 class StrategyAnalyser{
     private $_SecureStrategy;
@@ -18,12 +18,14 @@ class StrategyAnalyser{
     public function run(string $paramget=""){
         //testé si on a une stratégie de securité ou pas dans l'action
         $strategyAction=$this->_SecureStrategy->getStrategyForAction($paramget);
+        $strategyData=isset($strategyAction['datas']) ? $strategyAction['datas'] :"";
         $this->DataAnalyse($strategyAction['datas']); 
-        $this->_WatchDog->run($strategyAction['watchdog']);
+        $strategyWD=isset($strategyAction['watchdog']) ? $strategyAction['watchdog'] :"";
+        $this->_WatchDog->run($strategyWD);
     }
 
     public function DataAnalyse($strategyData){
-        if(isset($strategyData)){
+        if(!empty($strategyData) && is_array($strategyData)>0){
             foreach($strategyData as $key => $value){
                 if(isset($_REQUEST[$key])){
                     FilterDatas::filter($value,$_REQUEST[$key]); 

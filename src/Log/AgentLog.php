@@ -39,7 +39,7 @@ abstract class AgentLog{
 
 
     public static function LogerMessage(string $message){
-      $LigneMessage=date("[d-m-D h:i:s]").";". $message ;
+      $LigneMessage=date("d-m-D h:i:s").";". $message."\n" ;
       self::LogSaveMessageInFile($LigneMessage);
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Smartedutech\Securelayer\WatchDog;
+namespace Smartedutech\Securelayer\Watchdog;
 
 use Smartedutech\Securelayer\Log\AgentLog;
 
