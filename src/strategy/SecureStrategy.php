@@ -2,6 +2,8 @@
 
 namespace Smartedutech\Securelayer\Strategy;
 
+use Smartedutech\Securelayer\WatchDog\ActivityScan;
+
 class SecureStrategy{
     public  $_Strategy;
     public function __construct(string $File="")
@@ -19,10 +21,9 @@ class SecureStrategy{
 
     }
 
-    public function getStrategyForAction(){
-        $url=$_SERVER['REQUEST_URI']; 
-        $parsedURI=parse_url($url); 
-        return $this->_Strategy->getStrategy($parsedURI['path']); 
+    public function getStrategyForAction(){ 
+        $parsedURI=ActivityScan::getActivity();
+        return $this->_Strategy->getStrategy($parsedURI); 
 
     }
 
