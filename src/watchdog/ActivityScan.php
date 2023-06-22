@@ -2,6 +2,8 @@
 
 namespace Smartedutech\Securelayer\Watchdog;
 
+use Smartedutech\Securelayer\Log\FileAgentLog;
+use Smartedutech\Securelayer\Log\DBAgentLog;
 abstract class ActivityScan{
 
 
@@ -26,7 +28,13 @@ abstract class ActivityScan{
             ,"temp_requete"=>date('d/m/Y H:i:s', $_SERVER["REQUEST_TIME"])  
             ,"QUERY_STRING"=>$_SERVER['QUERY_STRING']
             ,"SERVER_NAME"=>$_SERVER['SERVER_NAME']
-            
+    
+             
         ));
     }
-}
+    public static function logActivity() {
+        $logMessage = self::scanAllInfo();
+        FileAgentLog::FileSaveLogMessage($logMessage);
+        DBAgentLog::DBSaveLogMessage($logMessage);
+    }
+} 
