@@ -10,15 +10,14 @@ abstract class DbAdapterLog
     public static $dbh;
 
     public static function connect($_config){
-        if(!self::$dbh){
-            try { 
-                self::$dbh = new \PDO('mysql:host='.$_config['host'].';dbname='.$_config['DBName'], $_config['USER'] , $_config['PASSWORD']);
-            self::$dbh->exec("set names utf8");
-			} catch (\PDOException $e) {
-                print "Erreur !: " . $e->getMessage() . "<br/>";
-                die();
-            }
-        }
+                       try { 
+                    self::$dbh = new \PDO('mysql:host='.$_config['host'].';dbname='.$_config['DBName'], $_config['USER'] , $_config['PASSWORD']);
+                    self::$dbh->exec("set names utf8");
+                } catch (\PDOException $e) {
+                    print "Erreur !: " . $e->getMessage() . "<br/>";
+                    die();
+                }
+            
     }
 
     public static function beginTransaction(){
