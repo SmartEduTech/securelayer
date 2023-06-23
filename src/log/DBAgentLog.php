@@ -1,22 +1,22 @@
-<?php 
-//include_once dirname(__FILE__)."/mvc/Configuration.php";
+<?php
 namespace Smartedutech\Securelayer\Log;
 
-abstract class DBAgentLog{
+class DBAgentLog {
+    public static function DBSaveLogMessage($message) {
+        // Modify this method to save the log message in your database table
+        $host = '127.0.0.1';
+        $dbname = 'bdlogs';
+        $username = 'root';
+        $password = '';
 
-    public static function DBSaveLogMessage ($logMessage){
         try {
-            $dbh = new \PDO('mysql:host=' . DBConfig::$host . ';dbname=' . DBConfig::$dbName, DBConfig::$user, DBConfig::$password);
-            $dbh->exec("set names utf8");
-
-            $stmt = $dbh->prepare("INSERT INTO log_table (log_message) VALUES (:logMessage)");
-            $stmt->bindValue(':logMessage', $logMessage);
-            $stmt->execute();
+            $pdo = new \PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
+            $query = "INSERT INTO logs (message) VALUES (?)";
+            $statement = $pdo->prepare($query);
+            $statement->execute([$message]);
+            $pdo = null; // Close the database connection
         } catch (\PDOException $e) {
-            print "Erreur !: " . $e->getMessage() . "<br/>";
-            die();
+            echo "Database connection error: " . $e->getMessage();
         }
     }
-    
-
 }
