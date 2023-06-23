@@ -1,10 +1,14 @@
 <?php
+
 namespace Smartedutech\Securelayer\Log;
 
-abstract class DBConfig
-{
-    public static $host = 'localhost';
-    public static $dbName = 'my_database';
-    public static $user = 'my_user';
-    public static $password = 'my_password';
+abstract class DBConfig {
+
+    public static $host = '127.0.0.1'; 
+    public static $dbName = 'bdlogs';
+    public static $username = 'root'; 
+    public static $password = ''; 
+    
 }
+
+?>
