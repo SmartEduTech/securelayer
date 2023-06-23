@@ -6,7 +6,7 @@ abstract class AgentLog{
   public static $_LogStrategy;
 
   public static function InitLogStategy(array $Strategy):void{
-
+    self::$_LogStrategy = $Strategy;
   }
 
   private static function LogSaveMessageInFile($Message){
