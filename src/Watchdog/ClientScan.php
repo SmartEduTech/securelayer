@@ -2,6 +2,7 @@
 namespace Smartedutech\Securelayer\Watchdog;
 
 use Smartedutech\Securelayer\Log\DBAgentLog;
+use GeoIp2\Database\Reader;
 
 abstract class ClientScan
 {
@@ -16,6 +17,19 @@ abstract class ClientScan
             "HTTP_X_FORWARDED_FOR" => isset($_SERVER['HTTP_X_FORWARDED_FOR']) ? $_SERVER['HTTP_X_FORWARDED_FOR'] : '',  // Adresse IP du client si le serveur est derrière un proxy
             "REMOTE_PORT" => isset($_SERVER['REMOTE_PORT']) ? $_SERVER['REMOTE_PORT'] : ''  // Port du client
         ]);
+    }
+    public static function geoLocalisation(){
+        $reader = new Reader(dirname(__FILE__).'/../../refdb/GeoIP2-City.mmdb');
+
+        // Get information from the IP address
+        $address =  $_SERVER['REMOTE_ADDR'];//"102.156.31.244";
+        $record = $reader->city($address);
+        return json_encode([
+            "country"=>$record->country->name
+            ,"city"=>$record->city->name
+
+        ]);
+         
     }
 }
 

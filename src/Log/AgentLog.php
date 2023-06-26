@@ -22,7 +22,7 @@ abstract class AgentLog{
    * Type : File| DB
    * Langue: FR | AN | AR
    */
-    public function Loger($Class,$Func,$Msg,$Langue="FR",$additional="",$type="File"){
+    public static function Loger($Class,$Func,$Msg,$Langue="FR",$additional="",$type="File"){
       $Message = MessageLog::getMessage($Class,$Func,$Msg,$Langue);
       $finalMessage=self::addTime("$Class;$Func;$Msg;$Message;$additional");
       if($type=="file"){

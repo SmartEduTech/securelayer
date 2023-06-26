@@ -9,7 +9,7 @@ abstract class FilterDatas{
     public static function filter(array $datas,$value){
        switch($datas['type']){
             case "string":
-                return  self::filterString($value,(isset($datas['taille']) ? $datas['taille'] :""),(isset($datas['min']) ? $datas['min'] :""),(isset($datas['max']) ? $datas['max'] :""));
+                return  self::filterString($value,(isset($datas['taille']) ? $datas['taille'] :null),(isset($datas['min']) ? $datas['min'] :null),(isset($datas['max']) ? $datas['max'] :null));
             break;
             case "int": 
                 return  self::filterInt($value,(isset($datas['min']) ? $datas['min'] :""),(isset($datas['max']) ? $datas['max'] :""));
@@ -18,8 +18,12 @@ abstract class FilterDatas{
                 return self::filterString($value);
             break;
             case "sqlinjection":
+               // die($value);
                 return self::sqlInjectionScan($value);
             break;
+            default:
+                return "";
+            break; 
        }
     }
 
@@ -35,14 +39,26 @@ abstract class FilterDatas{
         $result= ScanSqlInjection::scanSqlInjection($str);
         if($result['result']){
             $stradd=json_encode($result['matched']);
-            return AgentLog::Loger("FilterDatas","sqlInjectionScan","FR",$stradd);
+            return AgentLog::Loger("FilterDatas","sqlInjectionScan","ERREUR_SQL_INJECTION","FR",$stradd);
         }else{
             return "";
         }
        
     }
     public static function filterString(string $str,int $lengh=null,int $min=null,int $max=null){
-        
+        if($lengh && strlen($str)!= $lengh){
+            return AgentLog::Loger("FilterDatas","filterString","Erreur_TAILLE","FR");
+
+        }
+        if($min && strlen($str)< $min){
+            return AgentLog::Loger("FilterDatas","filterString","Erreur_TAILLE_MIN","FR");
+
+        }
+
+        if($max && strlen($str)> $max){
+            return AgentLog::Loger("FilterDatas","filterString","Erreur_TAILLE_MAX","FR");
+
+        }
     }
 /**
  * Filter Int with range

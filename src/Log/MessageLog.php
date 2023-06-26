@@ -13,7 +13,7 @@ abstract class MessageLog{
             if(isset($Data->$Class->$Func->$Message->$Langue)){
                 return $Data->$Class->$Func->$Message->$Langue;
             }else{
-                return "Message not Allow";
+                return $Message;
             }
             
         }else{

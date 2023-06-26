@@ -1,81 +1,247 @@
-<<<<<<< HEAD
+27-06-Tue 12:56:17;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"http:\\\/\\\/localhost:7878\\\/\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"49953\"}","temp_requete":"27\/06\/2023 00:56:17","QUERY_STRING":"","REQUEST_PARAMS":"POST","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 12:56:17;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"http:\/\/localhost:7878\/","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"49953"}
+27-06-Tue 12:56:17;Local IP detected
+27-06-Tue 12:56:17;Aucune alerte détectée
+27-06-Tue 12:56:17;Adresse email introuvable
+27-06-Tue 12:56:17;Non-200 URI status détectée
+27-06-Tue 12:56:17;Méthode de requête non GET
 
-[14-06-Wed 11:30:11];FilterDatas;filterInt;Erreur_INT;ce n'est pas un entier;
-[14-06-Wed 11:30:12];FilterDatas;filterEmail;ERREUR_EMail;Erreur d'e-mail;
-[14-06-Wed 11:34:28];FilterDatas;filterInt;Erreur_INT;ce n'est pas un entier;
-[14-06-Wed 11:34:28];FilterDatas;filterEmail;ERREUR_EMail;Erreur d'e-mail;
-=======
-25-06-Sun 05:39:07;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\\/537.36 (KHTML, like Gecko) Chrome\\\/114.0.0.0 Safari\\\/537.36 Edg\\\/114.0.1823.58\",\"HTTP_ACCEPT_LANGUAGE\":\"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":null,\"HTTP_X_FORWARDED_FOR\":null,\"EMAIL\":null,\"MAC_ADDR\":\"\",\"GEOLOCATION\":{\"latitude\":\"\",\"longitude\":\"\",\"accuracy\":\"\"}}","temp_requete":"25\/06\/2023 17:39:07","QUERY_STRING":null,"REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
-25-06-Sun 05:39:08;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36 Edg\/114.0.1823.58","HTTP_ACCEPT_LANGUAGE":"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6","HTTP_AUTHORIZATION":false,"HTTP_REFERER":null,"HTTP_X_FORWARDED_FOR":null,"EMAIL":null,"MAC_ADDR":"","GEOLOCATION":{"latitude":"","longitude":"","accuracy":""}}
-25-06-Sun 05:39:25;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\\/537.36 (KHTML, like Gecko) Chrome\\\/114.0.0.0 Safari\\\/537.36 Edg\\\/114.0.1823.58\",\"HTTP_ACCEPT_LANGUAGE\":\"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":null,\"HTTP_X_FORWARDED_FOR\":null,\"EMAIL\":null,\"MAC_ADDR\":\"\",\"GEOLOCATION\":{\"latitude\":\"\",\"longitude\":\"\",\"accuracy\":\"\"}}","temp_requete":"25\/06\/2023 17:39:24","QUERY_STRING":null,"REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
-25-06-Sun 05:39:25;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36 Edg\/114.0.1823.58","HTTP_ACCEPT_LANGUAGE":"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6","HTTP_AUTHORIZATION":false,"HTTP_REFERER":null,"HTTP_X_FORWARDED_FOR":null,"EMAIL":null,"MAC_ADDR":"","GEOLOCATION":{"latitude":"","longitude":"","accuracy":""}}
-25-06-Sun 06:05:58;{"status":0,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\\/537.36 (KHTML, like Gecko) Chrome\\\/114.0.0.0 Safari\\\/537.36 Edg\\\/114.0.1823.58\",\"HTTP_ACCEPT_LANGUAGE\":\"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"55568\",\"REQUEST_SCHEME\":null}","temp_requete":"25\/06\/2023 18:05:58","QUERY_STRING":null,"REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
-25-06-Sun 06:05:58;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36 Edg\/114.0.1823.58","HTTP_ACCEPT_LANGUAGE":"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"55568","REQUEST_SCHEME":null}
-25-06-Sun 06:20:21;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\\/537.36 (KHTML, like Gecko) Chrome\\\/114.0.0.0 Safari\\\/537.36 Edg\\\/114.0.1823.58\",\"HTTP_ACCEPT_LANGUAGE\":\"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"55683\"}","temp_requete":"25\/06\/2023 18:20:21","QUERY_STRING":"","REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
-25-06-Sun 06:20:21;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36 Edg\/114.0.1823.58","HTTP_ACCEPT_LANGUAGE":"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"55683"}
-25-06-Sun 06:28:18;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\\/537.36 (KHTML, like Gecko) Chrome\\\/114.0.0.0 Safari\\\/537.36 Edg\\\/114.0.1823.58\",\"HTTP_ACCEPT_LANGUAGE\":\"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"55828\"}","temp_requete":"25\/06\/2023 18:28:18","QUERY_STRING":"","REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
-25-06-Sun 06:28:18;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36 Edg\/114.0.1823.58","HTTP_ACCEPT_LANGUAGE":"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"55828"}
-25-06-Sun 06:31:26;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\\/537.36 (KHTML, like Gecko) Chrome\\\/114.0.0.0 Safari\\\/537.36 Edg\\\/114.0.1823.58\",\"HTTP_ACCEPT_LANGUAGE\":\"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"55881\"}","temp_requete":"25\/06\/2023 18:31:26","QUERY_STRING":"","REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
-25-06-Sun 06:31:26;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36 Edg\/114.0.1823.58","HTTP_ACCEPT_LANGUAGE":"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"55881"}
-25-06-Sun 06:31:26;Local IP detected
-25-06-Sun 06:31:26;Aucune alerte détectée
-25-06-Sun 06:31:26;Adresse email introuvable
-25-06-Sun 06:31:26;Aucune page détectée
-25-06-Sun 06:31:26;Non-200 URI status détectée
-25-06-Sun 06:31:34;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\\/537.36 (KHTML, like Gecko) Chrome\\\/114.0.0.0 Safari\\\/537.36 Edg\\\/114.0.1823.58\",\"HTTP_ACCEPT_LANGUAGE\":\"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"55882\"}","temp_requete":"25\/06\/2023 18:31:34","QUERY_STRING":"","REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
-25-06-Sun 06:31:34;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36 Edg\/114.0.1823.58","HTTP_ACCEPT_LANGUAGE":"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"55882"}
-25-06-Sun 06:31:34;Local IP detected
-25-06-Sun 06:31:34;Aucune alerte détectée
-25-06-Sun 06:31:34;Adresse email introuvable
-25-06-Sun 06:31:34;Aucune page détectée
-25-06-Sun 06:31:34;Non-200 URI status détectée
-25-06-Sun 06:31:35;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\\/537.36 (KHTML, like Gecko) Chrome\\\/114.0.0.0 Safari\\\/537.36 Edg\\\/114.0.1823.58\",\"HTTP_ACCEPT_LANGUAGE\":\"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"55883\"}","temp_requete":"25\/06\/2023 18:31:35","QUERY_STRING":"","REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
-25-06-Sun 06:31:35;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36 Edg\/114.0.1823.58","HTTP_ACCEPT_LANGUAGE":"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"55883"}
-25-06-Sun 06:31:35;Local IP detected
-25-06-Sun 06:31:35;Aucune alerte détectée
-25-06-Sun 06:31:35;Adresse email introuvable
-25-06-Sun 06:31:35;Aucune page détectée
-25-06-Sun 06:31:35;Non-200 URI status détectée
-25-06-Sun 06:31:35;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\\/537.36 (KHTML, like Gecko) Chrome\\\/114.0.0.0 Safari\\\/537.36 Edg\\\/114.0.1823.58\",\"HTTP_ACCEPT_LANGUAGE\":\"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"55890\"}","temp_requete":"25\/06\/2023 18:31:35","QUERY_STRING":"","REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
-25-06-Sun 06:31:35;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36 Edg\/114.0.1823.58","HTTP_ACCEPT_LANGUAGE":"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"55890"}
-25-06-Sun 06:31:35;Local IP detected
-25-06-Sun 06:31:35;Aucune alerte détectée
-25-06-Sun 06:31:35;Adresse email introuvable
-25-06-Sun 06:31:35;Aucune page détectée
-25-06-Sun 06:31:35;Non-200 URI status détectée
-25-06-Sun 06:31:35;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\\/537.36 (KHTML, like Gecko) Chrome\\\/114.0.0.0 Safari\\\/537.36 Edg\\\/114.0.1823.58\",\"HTTP_ACCEPT_LANGUAGE\":\"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"55891\"}","temp_requete":"25\/06\/2023 18:31:35","QUERY_STRING":"","REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
-25-06-Sun 06:31:35;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36 Edg\/114.0.1823.58","HTTP_ACCEPT_LANGUAGE":"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"55891"}
-25-06-Sun 06:31:35;Local IP detected
-25-06-Sun 06:31:35;Aucune alerte détectée
-25-06-Sun 06:31:35;Adresse email introuvable
-25-06-Sun 06:31:35;Aucune page détectée
-25-06-Sun 06:31:35;Non-200 URI status détectée
-25-06-Sun 06:31:36;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\\/537.36 (KHTML, like Gecko) Chrome\\\/114.0.0.0 Safari\\\/537.36 Edg\\\/114.0.1823.58\",\"HTTP_ACCEPT_LANGUAGE\":\"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"55894\"}","temp_requete":"25\/06\/2023 18:31:36","QUERY_STRING":"","REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
-25-06-Sun 06:31:36;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36 Edg\/114.0.1823.58","HTTP_ACCEPT_LANGUAGE":"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"55894"}
-25-06-Sun 06:31:36;Local IP detected
-25-06-Sun 06:31:36;Aucune alerte détectée
-25-06-Sun 06:31:36;Adresse email introuvable
-25-06-Sun 06:31:36;Aucune page détectée
-25-06-Sun 06:31:36;Non-200 URI status détectée
-25-06-Sun 06:31:36;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\\/537.36 (KHTML, like Gecko) Chrome\\\/114.0.0.0 Safari\\\/537.36 Edg\\\/114.0.1823.58\",\"HTTP_ACCEPT_LANGUAGE\":\"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"55896\"}","temp_requete":"25\/06\/2023 18:31:36","QUERY_STRING":"","REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
-25-06-Sun 06:31:36;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36 Edg\/114.0.1823.58","HTTP_ACCEPT_LANGUAGE":"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"55896"}
-25-06-Sun 06:31:36;Local IP detected
-25-06-Sun 06:31:36;Aucune alerte détectée
-25-06-Sun 06:31:36;Adresse email introuvable
-25-06-Sun 06:31:36;Aucune page détectée
-25-06-Sun 06:31:36;Non-200 URI status détectée
-25-06-Sun 06:31:37;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\\/537.36 (KHTML, like Gecko) Chrome\\\/114.0.0.0 Safari\\\/537.36 Edg\\\/114.0.1823.58\",\"HTTP_ACCEPT_LANGUAGE\":\"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"55897\"}","temp_requete":"25\/06\/2023 18:31:37","QUERY_STRING":"","REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
-25-06-Sun 06:31:37;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36 Edg\/114.0.1823.58","HTTP_ACCEPT_LANGUAGE":"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"55897"}
-25-06-Sun 06:31:37;Local IP detected
-25-06-Sun 06:31:37;Aucune alerte détectée
-25-06-Sun 06:31:37;Adresse email introuvable
-25-06-Sun 06:31:37;Aucune page détectée
-25-06-Sun 06:31:37;Non-200 URI status détectée
-25-06-Sun 06:38:07;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\\/537.36 (KHTML, like Gecko) Chrome\\\/114.0.0.0 Safari\\\/537.36 Edg\\\/114.0.1823.58\",\"HTTP_ACCEPT_LANGUAGE\":\"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"55941\"}","temp_requete":"25\/06\/2023 18:38:07","QUERY_STRING":"","REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
-25-06-Sun 06:38:07;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36 Edg\/114.0.1823.58","HTTP_ACCEPT_LANGUAGE":"fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"55941"}
-25-06-Sun 06:38:07;Local IP detected
-25-06-Sun 06:38:07;Aucune alerte détectée
-25-06-Sun 06:38:07;Adresse email introuvable
-25-06-Sun 06:38:07;Aucune page détectée
-25-06-Sun 06:38:07;Non-200 URI status détectée
->>>>>>> cf612a01dc9057a96a620480502abd9f189e2ffe
+[27-06-Tue 12:56:17];FilterDatas;filterString;FR;Message not Allow;
+[27-06-Tue 12:56:17];FilterDatas;sqlInjectionScan;FR;Message not Allow;27-06-Tue 12:59:48;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"http:\\\/\\\/localhost:7878\\\/\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"50201\"}","temp_requete":"27\/06\/2023 00:59:48","QUERY_STRING":"","REQUEST_PARAMS":"POST","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 12:59:48;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"http:\/\/localhost:7878\/","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"50201"}
+27-06-Tue 12:59:48;Local IP detected
+27-06-Tue 12:59:48;Aucune alerte détectée
+27-06-Tue 12:59:48;Adresse email introuvable
+27-06-Tue 12:59:48;Non-200 URI status détectée
+27-06-Tue 12:59:48;Méthode de requête non GET
+
+[27-06-Tue 12:59:48];FilterDatas;filterString;FR;Message not Allow;
+[27-06-Tue 12:59:48];FilterDatas;sqlInjectionScan;FR;Message not Allow;27-06-Tue 01:01:18;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"http:\\\/\\\/localhost:7878\\\/\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"50236\"}","temp_requete":"27\/06\/2023 01:01:18","QUERY_STRING":"","REQUEST_PARAMS":"POST","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:01:18;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"http:\/\/localhost:7878\/","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"50236"}
+27-06-Tue 01:01:18;Local IP detected
+27-06-Tue 01:01:18;Aucune alerte détectée
+27-06-Tue 01:01:18;Adresse email introuvable
+27-06-Tue 01:01:18;Non-200 URI status détectée
+27-06-Tue 01:01:18;Méthode de requête non GET
+
+[27-06-Tue 01:01:18];FilterDatas;filterString;FR;FR;
+[27-06-Tue 01:01:18];FilterDatas;sqlInjectionScan;FR;FR;27-06-Tue 01:02:47;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"http:\\\/\\\/localhost:7878\\\/\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"50277\"}","temp_requete":"27\/06\/2023 01:02:46","QUERY_STRING":"","REQUEST_PARAMS":"POST","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:02:47;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"http:\/\/localhost:7878\/","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"50277"}
+27-06-Tue 01:02:47;Local IP detected
+27-06-Tue 01:02:47;Aucune alerte détectée
+27-06-Tue 01:02:47;Adresse email introuvable
+27-06-Tue 01:02:47;Non-200 URI status détectée
+27-06-Tue 01:02:47;Méthode de requête non GET
+
+[27-06-Tue 01:02:47];FilterDatas;filterString;FR;FR;
+[27-06-Tue 01:02:47];FilterDatas;sqlInjectionScan;ERREUR_SQL_INJECTION;ERREUR_SQL_INJECTION;[["UPDATE","1=1"],["UPDATE","1=1"],["",""],["",""],["",""]]27-06-Tue 01:03:08;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"50288\"}","temp_requete":"27\/06\/2023 01:03:08","QUERY_STRING":"","REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:03:08;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"50288"}
+27-06-Tue 01:03:08;Local IP detected
+27-06-Tue 01:03:08;Aucune alerte détectée
+27-06-Tue 01:03:08;Adresse email introuvable
+27-06-Tue 01:03:08;Aucune page détectée
+27-06-Tue 01:03:08;Non-200 URI status détectée
+27-06-Tue 01:03:12;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"http:\\\/\\\/localhost:7878\\\/\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"50290\"}","temp_requete":"27\/06\/2023 01:03:12","QUERY_STRING":"","REQUEST_PARAMS":"POST","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:03:12;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"http:\/\/localhost:7878\/","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"50290"}
+27-06-Tue 01:03:12;Local IP detected
+27-06-Tue 01:03:12;Aucune alerte détectée
+27-06-Tue 01:03:12;Adresse email introuvable
+27-06-Tue 01:03:12;Non-200 URI status détectée
+27-06-Tue 01:03:12;Méthode de requête non GET
+27-06-Tue 01:04:59;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"50329\"}","temp_requete":"27\/06\/2023 01:04:58","QUERY_STRING":"","REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:04:59;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"50329"}
+27-06-Tue 01:04:59;Local IP detected
+27-06-Tue 01:04:59;Aucune alerte détectée
+27-06-Tue 01:04:59;Adresse email introuvable
+27-06-Tue 01:04:59;Aucune page détectée
+27-06-Tue 01:04:59;Non-200 URI status détectée
+27-06-Tue 01:06:12;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"50366\"}","temp_requete":"27\/06\/2023 01:06:12","QUERY_STRING":"","REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:06:12;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"50366"}
+27-06-Tue 01:06:12;Local IP detected
+27-06-Tue 01:06:12;Aucune alerte détectée
+27-06-Tue 01:06:12;Adresse email introuvable
+27-06-Tue 01:06:12;Aucune page détectée
+27-06-Tue 01:06:12;Non-200 URI status détectée
+27-06-Tue 01:08:11;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"http:\\\/\\\/localhost:7878\\\/\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"50417\"}","temp_requete":"27\/06\/2023 01:08:11","QUERY_STRING":"","REQUEST_PARAMS":"POST","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:08:11;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"http:\/\/localhost:7878\/","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"50417"}
+27-06-Tue 01:08:11;Local IP detected
+27-06-Tue 01:08:11;Aucune alerte détectée
+27-06-Tue 01:08:11;Adresse email introuvable
+27-06-Tue 01:08:11;Non-200 URI status détectée
+27-06-Tue 01:08:11;Méthode de requête non GET
+27-06-Tue 01:41:31;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"http:\\\/\\\/localhost:7878\\\/\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"51471\"}","temp_requete":"27\/06\/2023 01:41:31","QUERY_STRING":"","REQUEST_PARAMS":"POST","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:41:31;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"http:\/\/localhost:7878\/","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"51471"}
+27-06-Tue 01:41:31;Local IP detected
+27-06-Tue 01:41:31;Aucune alerte détectée
+27-06-Tue 01:41:31;Adresse email introuvable
+27-06-Tue 01:41:31;Non-200 URI status détectée
+27-06-Tue 01:41:31;Méthode de requête non GET
+27-06-Tue 01:41:33;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"51474\"}","temp_requete":"27\/06\/2023 01:41:33","QUERY_STRING":"","REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:41:33;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"51474"}
+27-06-Tue 01:41:33;Local IP detected
+27-06-Tue 01:41:33;Aucune alerte détectée
+27-06-Tue 01:41:33;Adresse email introuvable
+27-06-Tue 01:41:33;Aucune page détectée
+27-06-Tue 01:41:33;Non-200 URI status détectée
+27-06-Tue 01:42:20;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"http:\\\/\\\/localhost:7878\\\/\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"51494\"}","temp_requete":"27\/06\/2023 01:42:20","QUERY_STRING":"","REQUEST_PARAMS":"POST","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:42:20;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"http:\/\/localhost:7878\/","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"51494"}
+27-06-Tue 01:42:20;Local IP detected
+27-06-Tue 01:42:20;Aucune alerte détectée
+27-06-Tue 01:42:20;Adresse email introuvable
+27-06-Tue 01:42:20;Non-200 URI status détectée
+27-06-Tue 01:42:20;Méthode de requête non GET
+27-06-Tue 01:42:24;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"http:\\\/\\\/localhost:7878\\\/\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"51498\"}","temp_requete":"27\/06\/2023 01:42:24","QUERY_STRING":"","REQUEST_PARAMS":"POST","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:42:24;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"http:\/\/localhost:7878\/","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"51498"}
+27-06-Tue 01:42:24;Local IP detected
+27-06-Tue 01:42:24;Aucune alerte détectée
+27-06-Tue 01:42:24;Adresse email introuvable
+27-06-Tue 01:42:24;Non-200 URI status détectée
+27-06-Tue 01:42:24;Méthode de requête non GET
+27-06-Tue 01:42:32;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"51502\"}","temp_requete":"27\/06\/2023 01:42:31","QUERY_STRING":"","REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:42:32;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"51502"}
+27-06-Tue 01:42:32;Local IP detected
+27-06-Tue 01:42:32;Aucune alerte détectée
+27-06-Tue 01:42:32;Adresse email introuvable
+27-06-Tue 01:42:32;Aucune page détectée
+27-06-Tue 01:42:32;Non-200 URI status détectée
+27-06-Tue 01:42:34;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"http:\\\/\\\/localhost:7878\\\/\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"51506\"}","temp_requete":"27\/06\/2023 01:42:34","QUERY_STRING":"","REQUEST_PARAMS":"POST","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:42:34;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"http:\/\/localhost:7878\/","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"51506"}
+27-06-Tue 01:42:34;Local IP detected
+27-06-Tue 01:42:34;Aucune alerte détectée
+27-06-Tue 01:42:34;Adresse email introuvable
+27-06-Tue 01:42:34;Non-200 URI status détectée
+27-06-Tue 01:42:34;Méthode de requête non GET
+27-06-Tue 01:42:41;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"http:\\\/\\\/localhost:7878\\\/\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"51516\"}","temp_requete":"27\/06\/2023 01:42:40","QUERY_STRING":"","REQUEST_PARAMS":"POST","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:42:41;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"http:\/\/localhost:7878\/","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"51516"}
+27-06-Tue 01:42:41;Local IP detected
+27-06-Tue 01:42:41;Aucune alerte détectée
+27-06-Tue 01:42:41;Adresse email introuvable
+27-06-Tue 01:42:41;Non-200 URI status détectée
+27-06-Tue 01:42:41;Méthode de requête non GET
+27-06-Tue 01:42:42;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"51519\"}","temp_requete":"27\/06\/2023 01:42:42","QUERY_STRING":"","REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:42:42;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"51519"}
+27-06-Tue 01:42:42;Local IP detected
+27-06-Tue 01:42:42;Aucune alerte détectée
+27-06-Tue 01:42:42;Adresse email introuvable
+27-06-Tue 01:42:42;Aucune page détectée
+27-06-Tue 01:42:42;Non-200 URI status détectée
+27-06-Tue 01:43:35;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"http:\\\/\\\/localhost:7878\\\/\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"51537\"}","temp_requete":"27\/06\/2023 01:43:34","QUERY_STRING":"","REQUEST_PARAMS":"POST","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:43:35;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"http:\/\/localhost:7878\/","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"51537"}
+27-06-Tue 01:43:35;Local IP detected
+27-06-Tue 01:43:35;Aucune alerte détectée
+27-06-Tue 01:43:35;Adresse email introuvable
+27-06-Tue 01:43:35;Non-200 URI status détectée
+27-06-Tue 01:43:35;Méthode de requête non GET
+
+[27-06-Tue 01:43:35];FilterDatas;filterString;FR;FR;
+[27-06-Tue 01:43:35];FilterDatas;sqlInjectionScan;ERREUR_SQL_INJECTION;ERREUR_SQL_INJECTION;[["SELECT"],["SELECT"],[""],[""],[""]]27-06-Tue 01:43:37;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"51539\"}","temp_requete":"27\/06\/2023 01:43:37","QUERY_STRING":"","REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:43:37;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"51539"}
+27-06-Tue 01:43:37;Local IP detected
+27-06-Tue 01:43:37;Aucune alerte détectée
+27-06-Tue 01:43:37;Adresse email introuvable
+27-06-Tue 01:43:37;Aucune page détectée
+27-06-Tue 01:43:37;Non-200 URI status détectée
+27-06-Tue 01:45:25;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"http:\\\/\\\/localhost:7878\\\/\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"51592\"}","temp_requete":"27\/06\/2023 01:45:25","QUERY_STRING":"","REQUEST_PARAMS":"POST","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:45:25;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"http:\/\/localhost:7878\/","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"51592"}
+27-06-Tue 01:45:25;Local IP detected
+27-06-Tue 01:45:25;Aucune alerte détectée
+27-06-Tue 01:45:25;Adresse email introuvable
+27-06-Tue 01:45:25;Non-200 URI status détectée
+27-06-Tue 01:45:25;Méthode de requête non GET
+
+[27-06-Tue 01:49:06];FilterDatas;filterString;Erreur_TAILLE;Erreur_TAILLE;
+[27-06-Tue 01:49:06];FilterDatas;filterString;Erreur_TAILLE;Erreur_TAILLE;27-06-Tue 01:49:06;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"http:\\\/\\\/localhost:7878\\\/\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"51678\"}","temp_requete":"27\/06\/2023 01:49:06","QUERY_STRING":"","REQUEST_PARAMS":"POST","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:49:06;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"http:\/\/localhost:7878\/","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"51678"}
+27-06-Tue 01:49:06;Local IP detected
+27-06-Tue 01:49:06;Aucune alerte détectée
+27-06-Tue 01:49:06;Adresse email introuvable
+27-06-Tue 01:49:06;Non-200 URI status détectée
+27-06-Tue 01:49:06;Méthode de requête non GET
+
+[27-06-Tue 01:49:06];FilterDatas;filterString;Erreur_TAILLE;Erreur_TAILLE;27-06-Tue 01:49:11;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"51683\"}","temp_requete":"27\/06\/2023 01:49:10","QUERY_STRING":"","REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:49:11;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"51683"}
+27-06-Tue 01:49:11;Local IP detected
+27-06-Tue 01:49:11;Aucune alerte détectée
+27-06-Tue 01:49:11;Adresse email introuvable
+27-06-Tue 01:49:11;Aucune page détectée
+27-06-Tue 01:49:11;Non-200 URI status détectée
+
+[27-06-Tue 01:49:15];FilterDatas;filterString;Erreur_TAILLE_MAX;Erreur_TAILLE_MAX;
+[27-06-Tue 01:49:15];FilterDatas;filterString;Erreur_TAILLE;Erreur_TAILLE;27-06-Tue 01:49:15;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"http:\\\/\\\/localhost:7878\\\/\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"51688\"}","temp_requete":"27\/06\/2023 01:49:15","QUERY_STRING":"","REQUEST_PARAMS":"POST","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:49:15;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"http:\/\/localhost:7878\/","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"51688"}
+27-06-Tue 01:49:15;Local IP detected
+27-06-Tue 01:49:15;Aucune alerte détectée
+27-06-Tue 01:49:15;Adresse email introuvable
+27-06-Tue 01:49:15;Non-200 URI status détectée
+27-06-Tue 01:49:15;Méthode de requête non GET
+
+[27-06-Tue 01:49:15];FilterDatas;filterString;Erreur_TAILLE_MAX;Erreur_TAILLE_MAX;27-06-Tue 01:49:19;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"51690\"}","temp_requete":"27\/06\/2023 01:49:19","QUERY_STRING":"","REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:49:19;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"51690"}
+27-06-Tue 01:49:19;Local IP detected
+27-06-Tue 01:49:19;Aucune alerte détectée
+27-06-Tue 01:49:19;Adresse email introuvable
+27-06-Tue 01:49:19;Aucune page détectée
+27-06-Tue 01:49:19;Non-200 URI status détectée
+27-06-Tue 01:49:59;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"http:\\\/\\\/localhost:7878\\\/\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"51706\"}","temp_requete":"27\/06\/2023 01:49:59","QUERY_STRING":"","REQUEST_PARAMS":"POST","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:49:59;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"http:\/\/localhost:7878\/","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"51706"}
+27-06-Tue 01:49:59;Local IP detected
+27-06-Tue 01:49:59;Aucune alerte détectée
+27-06-Tue 01:49:59;Adresse email introuvable
+27-06-Tue 01:49:59;Non-200 URI status détectée
+27-06-Tue 01:49:59;Méthode de requête non GET
+
+[27-06-Tue 01:50:04];FilterDatas;filterString;Erreur_TAILLE;Erreur_TAILLE;27-06-Tue 01:50:04;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"http:\\\/\\\/localhost:7878\\\/\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"51709\"}","temp_requete":"27\/06\/2023 01:50:04","QUERY_STRING":"","REQUEST_PARAMS":"POST","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:50:04;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"http:\/\/localhost:7878\/","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"51709"}
+27-06-Tue 01:50:04;Local IP detected
+27-06-Tue 01:50:04;Aucune alerte détectée
+27-06-Tue 01:50:04;Adresse email introuvable
+27-06-Tue 01:50:04;Non-200 URI status détectée
+27-06-Tue 01:50:04;Méthode de requête non GET
+
+[27-06-Tue 01:50:04];FilterDatas;filterString;Erreur_TAILLE;Erreur_TAILLE;27-06-Tue 01:50:07;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"51711\"}","temp_requete":"27\/06\/2023 01:50:06","QUERY_STRING":"","REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:50:07;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"51711"}
+27-06-Tue 01:50:07;Local IP detected
+27-06-Tue 01:50:07;Aucune alerte détectée
+27-06-Tue 01:50:07;Adresse email introuvable
+27-06-Tue 01:50:07;Aucune page détectée
+27-06-Tue 01:50:07;Non-200 URI status détectée
+27-06-Tue 01:50:55;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"51729\"}","temp_requete":"27\/06\/2023 01:50:55","QUERY_STRING":"","REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:50:55;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"51729"}
+27-06-Tue 01:50:55;Local IP detected
+27-06-Tue 01:50:55;Aucune alerte détectée
+27-06-Tue 01:50:55;Adresse email introuvable
+27-06-Tue 01:50:55;Aucune page détectée
+27-06-Tue 01:50:55;Non-200 URI status détectée
+
+[27-06-Tue 01:50:57];FilterDatas;filterString;Erreur_TAILLE;Erreur_TAILLE;27-06-Tue 01:50:57;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"http:\\\/\\\/localhost:7878\\\/\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"51731\"}","temp_requete":"27\/06\/2023 01:50:56","QUERY_STRING":"","REQUEST_PARAMS":"POST","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:50:57;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"http:\/\/localhost:7878\/","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"51731"}
+27-06-Tue 01:50:57;Local IP detected
+27-06-Tue 01:50:57;Aucune alerte détectée
+27-06-Tue 01:50:57;Adresse email introuvable
+27-06-Tue 01:50:57;Non-200 URI status détectée
+27-06-Tue 01:50:57;Méthode de requête non GET
+
+[27-06-Tue 01:50:57];FilterDatas;filterString;Erreur_TAILLE;Erreur_TAILLE;27-06-Tue 01:50:58;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"51734\"}","temp_requete":"27\/06\/2023 01:50:58","QUERY_STRING":"","REQUEST_PARAMS":"GET","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:50:58;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"51734"}
+27-06-Tue 01:50:58;Local IP detected
+27-06-Tue 01:50:58;Aucune alerte détectée
+27-06-Tue 01:50:58;Adresse email introuvable
+27-06-Tue 01:50:58;Aucune page détectée
+27-06-Tue 01:50:58;Non-200 URI status détectée
+27-06-Tue 01:51:01;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"http:\\\/\\\/localhost:7878\\\/\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"51738\"}","temp_requete":"27\/06\/2023 01:51:01","QUERY_STRING":"","REQUEST_PARAMS":"POST","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:51:01;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"http:\/\/localhost:7878\/","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"51738"}
+27-06-Tue 01:51:01;Local IP detected
+27-06-Tue 01:51:01;Aucune alerte détectée
+27-06-Tue 01:51:01;Adresse email introuvable
+27-06-Tue 01:51:01;Non-200 URI status détectée
+27-06-Tue 01:51:01;Méthode de requête non GET
+27-06-Tue 01:51:09;{"status":null,"activity":"\/","client":"{\"REMOTE_ADDR\":\"127.0.0.1\",\"HTTP_USER_AGENT\":\"Mozilla\\\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\\\/20100101 Firefox\\\/115.0\",\"HTTP_ACCEPT_LANGUAGE\":\"fr-FR\",\"HTTP_AUTHORIZATION\":false,\"HTTP_REFERER\":\"http:\\\/\\\/localhost:7878\\\/\",\"HTTP_X_FORWARDED_FOR\":\"\",\"REMOTE_PORT\":\"51744\"}","temp_requete":"27\/06\/2023 01:51:09","QUERY_STRING":"","REQUEST_PARAMS":"POST","SERVER_NAME":"0.0.0.0","USER_ID":"N\/A","PAGE_VISITED":"\/"}
+27-06-Tue 01:51:09;{"REMOTE_ADDR":"127.0.0.1","HTTP_USER_AGENT":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko\/20100101 Firefox\/115.0","HTTP_ACCEPT_LANGUAGE":"fr-FR","HTTP_AUTHORIZATION":false,"HTTP_REFERER":"http:\/\/localhost:7878\/","HTTP_X_FORWARDED_FOR":"","REMOTE_PORT":"51744"}
+27-06-Tue 01:51:09;Local IP detected
+27-06-Tue 01:51:09;Aucune alerte détectée
+27-06-Tue 01:51:09;Adresse email introuvable
+27-06-Tue 01:51:09;Non-200 URI status détectée
+27-06-Tue 01:51:09;Méthode de requête non GET
+
+[27-06-Tue 01:51:09];FilterDatas;filterString;FR;FR;
+[27-06-Tue 01:51:09];FilterDatas;sqlInjectionScan;ERREUR_SQL_INJECTION;ERREUR_SQL_INJECTION;[["SELECT"],["SELECT"],[""],[""],[""]]
