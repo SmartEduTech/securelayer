@@ -42,7 +42,7 @@
         "watchdog":{
             "alertDanger":{
                  "data":{
-                    "cin":{
+                    "email":{
                         "obligatoire":"true"
                         ,"type":"sqlinjection" 
                     }
