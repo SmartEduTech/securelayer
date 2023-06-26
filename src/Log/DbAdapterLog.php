@@ -2,11 +2,7 @@
 //include_once dirname(__FILE__)."/mvc/Configuration.php";
 
 namespace Smartedutech\Securelayer\Log;
-<<<<<<< HEAD
 //use lib\mvc\Configuration;
-=======
-
->>>>>>> cf612a01dc9057a96a620480502abd9f189e2ffe
 
 
 abstract class DbAdapterLog
