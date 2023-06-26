@@ -20,7 +20,7 @@ class StrategyAnalyser{
         $strategyAction=$this->_SecureStrategy->getStrategyForAction($paramget);
         $strategyData=isset($strategyAction['datas']) ? $strategyAction['datas'] :"";
         $this->DataAnalyse($strategyData); 
-        $strategyWD=isset($strategyAction['watchdog']) ? $strategyAction['watchdog'] :"";
+        $strategyWD=isset($strategyAction['watchdog']) ? $strategyAction['watchdog'] :[];
         $this->_WatchDog->run($strategyWD);
     }
 
