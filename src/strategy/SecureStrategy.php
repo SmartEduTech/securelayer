@@ -2,7 +2,7 @@
 
 namespace Smartedutech\Securelayer\Strategy;
 
-use Smartedutech\Securelayer\WatchDog\ActivityScan;
+use Smartedutech\Securelayer\Watchdog\ActivityScan;
 
 class SecureStrategy{
     public  $_Strategy;

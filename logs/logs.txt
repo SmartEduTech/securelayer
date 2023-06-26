@@ -1,0 +1,5 @@
+
+[14-06-Wed 11:30:11];FilterDatas;filterInt;Erreur_INT;ce n'est pas un entier;
+[14-06-Wed 11:30:12];FilterDatas;filterEmail;ERREUR_EMail;Erreur d'e-mail;
+[14-06-Wed 11:34:28];FilterDatas;filterInt;Erreur_INT;ce n'est pas un entier;
+[14-06-Wed 11:34:28];FilterDatas;filterEmail;ERREUR_EMail;Erreur d'e-mail;

@@ -15,7 +15,7 @@ abstract class ActivityScan{
         } 
     } 
     public static function uriFault(){
-        $HttpStatus = $_SERVER["REDIRECT_STATUS"]; 
+        $HttpStatus =isset($_SERVER["REDIRECT_STATUS"]) ?$_SERVER["REDIRECT_STATUS"]: "" ; 
         return $HttpStatus;
     }
     public static function scanAllInfo(){
