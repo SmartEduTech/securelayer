@@ -15,15 +15,8 @@ abstract class ActivityScan
             $url = $_SERVER['REQUEST_URI'];
             $parsedURI = parse_url($url);
             return $parsedURI['path'];
-<<<<<<< HEAD
         } 
     } 
-    public static function uriFault(){
-        $HttpStatus =isset($_SERVER["REDIRECT_STATUS"]) ?$_SERVER["REDIRECT_STATUS"]: "" ; 
-        return $HttpStatus;
-=======
-        }
-    }
 
     public static function uriFault()
     {
@@ -48,7 +41,6 @@ abstract class ActivityScan
             "USER_ID" => self::getUserId(), // Identifiant de l'utilisateur
             "PAGE_VISITED" => self::getCurrentPage() // Page visitée
         ]);
->>>>>>> cf612a01dc9057a96a620480502abd9f189e2ffe
     }
 
     private static function getUserId()
