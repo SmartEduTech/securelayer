@@ -17,12 +17,7 @@ abstract class ActivityScan
             return $parsedURI['path'];
         } 
     } 
-    public static function uriFault(){
-        $HttpStatus =isset($_SERVER["REDIRECT_STATUS"]) ?$_SERVER["REDIRECT_STATUS"]: "" ; 
-        return $HttpStatus;
-=======
-        }
-    }
+    
 
     public static function uriFault()
     {
