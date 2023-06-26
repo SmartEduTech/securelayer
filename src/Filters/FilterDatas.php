@@ -18,8 +18,12 @@ abstract class FilterDatas{
                 return self::filterString($value);
             break;
             case "sqlinjection":
+               // die($value);
                 return self::sqlInjectionScan($value);
             break;
+            default:
+                return "";
+            break; 
        }
     }
 
