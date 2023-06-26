@@ -2,24 +2,57 @@
 
 namespace Smartedutech\Securelayer\Watchdog;
 
+use Smartedutech\Securelayer\Filters\FilterDatas;
 use Smartedutech\Securelayer\Log\AgentLog;
 
 class WatchDog
 {
-    public function run(string $strategywatchdog)
+    public function run(array $strategywatchdog)
     {
+        print_r($strategywatchdog);
         $this->scanActivity();
         $this->scanClient();
         $this->analyseAlert($strategywatchdog);
+        if(isset($strategywatchdog['alertDanger'])){
+            $this->analyseDanger($strategywatchdog['alertDanger']);
+        }
     }
 
-    public function analyseAlert(string $strategywatchdog)
+    public function analyseDanger($strategywatchdog){
+        if(isset($strategywatchdog['data'])){
+            $this->filterDanger($strategywatchdog['data']);
+        }
+    }
+
+    public function filterDanger($trategyData){
+        if(!empty($strategyData) && is_array($strategyData)>0){
+            foreach($strategyData as $key => $value){
+
+                if(isset($_REQUEST[$key])){
+                   $danger= FilterDatas::filter($value,$_REQUEST[$key]); 
+                   if($danger){
+                    $this->arreterSystem($danger);
+                   }
+                } 
+            }
+        }
+    }
+
+
+    public function arreterSystem($message){
+        echo "<div style='background-color:red; color:white'>$message</div>";
+        die();
+    }
+    public function analyseAlert($strategywatchdog)
     {
+       
         $activity = json_decode(ActivityScan::scanAllInfo(), true);
         $client = json_decode(ClientScan::getClient(), true);
 
         if ($client && $client['REMOTE_ADDR'] == '127.0.0.1') {
             $this->handleAlert('Local IP detected');
+        }else{
+            $this->handleGeoLocalisationClient();
         }
 
         if ($activity && $activity['status'] === 404 && $client && $client['REMOTE_ADDR'] === '127.0.0.1') {
@@ -59,6 +92,11 @@ class WatchDog
 
     }
 
+    private function handleGeoLocalisationClient(){
+       $localisation= ClientScan::geoLocalisation();
+       AgentLog::LogerMessage($localisation);
+    }
+
     private function handleNoAlert()
     {
         // Gérer le cas où aucune alerte n'a été détectée
@@ -76,7 +114,7 @@ class WatchDog
 
     public function scanActivity()
     {
-        echo ActivityScan::scanAllInfo();
+        echo ActivityScan::scanAllInfo(); 
         AgentLog::LogerMessage(ActivityScan::scanAllInfo());
     }
 }
