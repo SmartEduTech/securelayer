@@ -6,7 +6,7 @@ abstract class AgentLog{
   public static $_LogStrategy;
 
   public static function InitLogStategy(array $Strategy):void{
-
+    self::$_LogStrategy = $Strategy;
   }
 
   private static function LogSaveMessageInFile($Message){
@@ -22,7 +22,7 @@ abstract class AgentLog{
    * Type : File| DB
    * Langue: FR | AN | AR
    */
-    public static function Loger($Class,$Func,$Msg,$Langue="FR",$additional="",$type="File"){
+    public function Loger($Class,$Func,$Msg,$Langue="FR",$additional="",$type="File"){
       $Message = MessageLog::getMessage($Class,$Func,$Msg,$Langue);
       $finalMessage=self::addTime("$Class;$Func;$Msg;$Message;$additional");
       if($type=="file"){

@@ -2,7 +2,11 @@
 //include_once dirname(__FILE__)."/mvc/Configuration.php";
 
 namespace Smartedutech\Securelayer\Log;
+<<<<<<< HEAD
 //use lib\mvc\Configuration;
+=======
+
+>>>>>>> cf612a01dc9057a96a620480502abd9f189e2ffe
 
 
 abstract class DbAdapterLog
@@ -10,15 +14,14 @@ abstract class DbAdapterLog
     public static $dbh;
 
     public static function connect($_config){
-        if(!self::$dbh){
-            try { 
-                self::$dbh = new \PDO('mysql:host='.$_config['host'].';dbname='.$_config['DBName'], $_config['USER'] , $_config['PASSWORD']);
-            self::$dbh->exec("set names utf8");
-			} catch (\PDOException $e) {
-                print "Erreur !: " . $e->getMessage() . "<br/>";
-                die();
-            }
-        }
+                       try { 
+                    self::$dbh = new \PDO('mysql:host='.$_config['host'].';dbname='.$_config['DBName'], $_config['USER'] , $_config['PASSWORD']);
+                    self::$dbh->exec("set names utf8");
+                } catch (\PDOException $e) {
+                    print "Erreur !: " . $e->getMessage() . "<br/>";
+                    die();
+                }
+            
     }
 
     public static function beginTransaction(){
